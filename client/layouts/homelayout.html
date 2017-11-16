@@ -1,0 +1,16 @@
+<template name="home">
+    {{> header}}
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h2 class="panel-title text-center">Upload your images</h2>
+            <div class="panel-body">
+
+                {{> upload_bootstrap fileTypes='.png,.jpg' }}
+
+            </div>
+        </div>
+    </div>
+
+    {{> uploadinfo}}
+</template>
